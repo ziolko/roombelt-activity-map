@@ -1,0 +1,23 @@
+{
+  "name": "mapgif",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/redis": "^2.8.28",
+    "@vercel/node": "^1.9.1",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "dotted-map": "^1.3.0",
+    "geoip-lite": "^1.4.2",
+    "lodash": "^4.17.21",
+    "redis": "^3.0.2"
+  }
+}

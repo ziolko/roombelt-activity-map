@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/api/:match*", "destination": "NOT_FOUND" },
+    { "source": "/:match.svg", "destination": "/api/:match" }
+  ],
+  "redirects": [
+    { "source": "/", "destination": "https://roombelt.com" }
+  ]
+}

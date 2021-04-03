@@ -1,0 +1,7 @@
+POST http://localhost:3000/roombelt.svg
+Authorization: Bearer PASS
+Content-Type: application/json
+
+{
+  "ip": "171.0.27.194"
+}
