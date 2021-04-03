@@ -1,4 +1,4 @@
-# Customers' activity map 🗺
+# Roombelt activity map 🗺
 
 <img src="https://maps.roombelt.com/roombelt.svg" height="300">
 
