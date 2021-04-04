@@ -67,7 +67,7 @@ async function handleGet(request: VercelRequest, response: VercelResponse) {
     await streamSvgHeader(dimensions, hexagon, response);
     await streamPointsFile(pointsFilePath, response);
 
-    const items = await getLastLocations(mapName, 30);
+    const items = await getLastLocations(mapName, 30, 100);
 
     for (const [lat, lng] of items) {
       try {
