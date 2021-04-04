@@ -30,17 +30,13 @@ await axios.post(
 );
 ```
 
-### Used by
-1. https://roombelt.com
-
 If you use this idea on your site let me know and I will add a link here.
 
 ### Credits
 The idea was inspired by [Clever Cloud](https://www.clever-cloud.com/en/) dashboard activity map. The map generation code is based on https://github.com/NTag/dotted-map.
 
+### Jobs
+I am looking for teammates in [my daily job](https://marketplace.atlassian.com/apps/1223211/whiteboards-for-jira-team-collaboration). If you're experienced in React and live in CEST +/- 3h let me know at mateusz.zielinski@spartez-software.com.
 
 ### License
 [Apache 2.0](https://github.com/ziolko/roombelt-activity-map/blob/main/LICENSE)
-
-### Jobs
-I am looking for teammates in [my daily job](https://marketplace.atlassian.com/apps/1223211/whiteboards-for-jira-team-collaboration). If you're experienced in React and live in CEST +/- 3h let me know at mateusz.zielinski@spartez-software.com.
