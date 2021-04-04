@@ -32,8 +32,6 @@ await axios.post(
 );
 ```
 
-If you use this idea on your site let me know and I will add a link here.
-
 ### Credits
 The idea was inspired by [Clever Cloud](https://www.clever-cloud.com/en/) dashboard activity map. The map generation code is based on https://github.com/NTag/dotted-map.
 
@@ -42,3 +40,5 @@ I am looking for teammates in [my daily job](https://marketplace.atlassian.com/a
 
 ### License
 [Apache 2.0](https://github.com/ziolko/roombelt-activity-map/blob/main/LICENSE)
+
+If you use the activity map on your site let me know and I will add a link here.
