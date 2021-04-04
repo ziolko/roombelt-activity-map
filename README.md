@@ -21,7 +21,7 @@ You can easily create similar map for your product by following the steps below.
 ### Usage 
 Single server can serve multiple separate maps. I use only https://maps.roombelt.com/roombelt.svg but other addresses like https://maps.roombelt.com/example.svg or https://maps.roombelt.com/subscribers.svg could be used as well.
 
-Reporting user activity from your back-end is as simple as sending a `POST` request with a valid authorization header and the reported `ip` address in the payload:
+Reporting user activity from your back-end is as simple as sending a `POST` request with a valid authorization header and the reported `ip` address in the payload. This is how I do it in the Roombelt backend:
 ```js
 await axios.post(
   "https://maps.roombelt.com/roombelt.svg",
@@ -37,3 +37,10 @@ If you use this idea on your site let me know and I will add a link here.
 
 ### Credits
 The idea was inspired by [Clever Cloud](https://www.clever-cloud.com/en/) dashboard activity map. The map generation code is based on https://github.com/NTag/dotted-map.
+
+
+### License
+[Apache 2.0](https://github.com/ziolko/roombelt-activity-map/blob/main/LICENSE)
+
+### Jobs
+I am looking for teammates in [my daily job](https://marketplace.atlassian.com/apps/1223211/whiteboards-for-jira-team-collaboration). If you're experienced in React and live in CEST +/- 3h let me know at mateusz.zielinski@spartez-software.com.
