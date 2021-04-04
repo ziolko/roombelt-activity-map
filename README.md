@@ -15,7 +15,8 @@ You can easily create similar map for your product by following the steps below.
 1. Create a new Vercel project with the following environment variables:
    * `REDIS_URL`, `REDIS_PASSWORD` and `REDIS_PORT` that define connection to the Redis database.
    * `TOKEN` is a secret that you will use to POST points to the map.
-2. Deploy the app with Vercel CLI or git.
+2. Clone this repository.
+3. Deploy this repository to vercel with Vercel CLI or git.
 
 ### Usage 
 Single server can serve multiple separate maps. I use only https://maps.roombelt.com/roombelt.svg but other addresses like https://maps.roombelt.com/example.svg or https://maps.roombelt.com/subscribers.svg could be used as well.
