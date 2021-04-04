@@ -21,7 +21,7 @@ You can easily create similar map for your product by following the steps below.
 ### Usage 
 Single server can serve multiple separate maps. I use only https://maps.roombelt.com/roombelt.svg but other addresses like https://maps.roombelt.com/example.svg or https://maps.roombelt.com/subscribers.svg could be used as well.
 
-Reporting an activity is as simple as sending a `POST` request with a valid authorization header and the reported `ip` address in the payload:
+Reporting an user activity from your back-end is as simple as sending a `POST` request with a valid authorization header and the reported `ip` address in the payload:
 ```js
 await axios.post(
   "https://maps.roombelt.com/roombelt.svg",
