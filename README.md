@@ -41,4 +41,4 @@ I am looking for teammates in [my daily job](https://marketplace.atlassian.com/a
 ### License
 [Apache 2.0](https://github.com/ziolko/roombelt-activity-map/blob/main/LICENSE)
 
-If you use the activity map on your site let me know and I will add a link here.
+If you use the activity map on your site let me know at mateusz@roombelt.com and I will add a link here.
