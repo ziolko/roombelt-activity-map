@@ -19,7 +19,9 @@ You can easily create similar map for your product by following the steps below.
 3. Deploy this repository to Vercel with Vercel CLI or git.
 
 ### Usage 
-Single server can serve multiple separate maps. I use only https://maps.roombelt.com/roombelt.svg but other addresses like https://maps.roombelt.com/example.svg or https://maps.roombelt.com/subscribers.svg could be used as well. The image contains up to 100 locations of clients active in the last 30 minutes. To change the limits modify [this line](https://github.com/ziolko/roombelt-activity-map/blob/main/api/%5Bname%5D.ts#L70).
+Single server can serve multiple separate maps. I use only https://maps.roombelt.com/roombelt.svg but other addresses like https://maps.roombelt.com/example.svg or https://maps.roombelt.com/subscribers.svg could be used as well. 
+
+The map contains up to 100 locations of clients active in the last 30 minutes. To change the limits modify [this line](https://github.com/ziolko/roombelt-activity-map/blob/main/api/%5Bname%5D.ts#L70).
 
 Reporting user activity from your back-end is as simple as sending a `POST` request with a valid authorization header and the reported `ip` address in the payload. This is how I do it in the Roombelt backend:
 ```js
