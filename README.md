@@ -4,7 +4,7 @@
 
 This application generates an animated SVG world map with locations of active users of Roombelt. The map is embedded into https://roombelt.com in the "social proof" section to prove that the product has real world usage. 
 
-You can easily create similar map for your product by following the steps below. If you don't feel like setting this up manually drop me an email at mateusz@roombelt.com. I can create you an account on my instance for a few $/month.
+You can easily create similar map for your product by following the steps below.
 
 ### Prerequisites
 1. Star this repository 😜
