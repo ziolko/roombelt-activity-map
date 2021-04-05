@@ -60,7 +60,7 @@ export function streamActivityPoint(
 ) {
   const start = Math.round(Math.random() * 50) / 10;
   output.write(
-    `<use href="#a" x="${x}" y="${y}" style="opacity: 0; animation: fade-in 0.5s ease-in ${start}s forwards; --start: ${start}s"/>`
+    `<use href="#a" x="${x}" y="${y}" style="will-change: opacity; opacity: 0; animation: fade-in 0.5s ease-in ${start}s forwards; --start: ${start}s"/>`
   );
 }
 
